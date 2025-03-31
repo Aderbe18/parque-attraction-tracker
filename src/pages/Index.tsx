@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useTheme } from '@/contexts/ThemeContext';
 import Navbar from '@/components/Navbar';
@@ -7,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { 
   ClipboardCheckIcon, 
-  ToolIcon, 
+  WrenchIcon, 
   UsersIcon, 
   DropletIcon,
   AlertTriangleIcon,
@@ -147,7 +146,7 @@ const Index = () => {
               
               <Link to="/solicitudes/nueva">
                 <Button variant="outline" className="w-full border-coffee text-coffee hover:bg-coffee/10">
-                  <ToolIcon className="h-4 w-4 mr-2" />
+                  <WrenchIcon className="h-4 w-4 mr-2" />
                   Nueva Solicitud
                 </Button>
               </Link>
